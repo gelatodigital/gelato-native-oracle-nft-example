@@ -1,7 +1,7 @@
 # Gelato Native Oracle NFT Example
 
 This example project demonstrates an NFT mint which costs **$1 worth of Ether**.  
-The [conversion of ETH/USD](https://github.com/gelatodigital/gelato-native-oracle-nft-example/blob/main/contracts/OneDollarNFT.sol#L20-L24) is powered by the natively integrated `L2PriceOracle` using the [`gelato-native-oracle-sdk`](https://www.npmjs.com/package/@gelatonetwork/gelato-native-oracle-sdk).
+[Fetching ETH/USD price](https://github.com/gelatodigital/gelato-native-oracle-nft-example/blob/main/contracts/OneDollarNFT.sol#L20-L24) is powered by the native oracle using the [`gelato-native-oracle-sdk`](https://www.npmjs.com/package/@gelatonetwork/gelato-native-oracle-sdk).
 
 ## Quick Start Guide
 
